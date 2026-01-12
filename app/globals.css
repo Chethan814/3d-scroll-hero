@@ -1,6 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
+:root {
   --color-lambo-black: #1a1a1a;
   --color-lambo-gold: #D4AF37;
   --color-bright-gold: #FFD700;
