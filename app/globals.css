@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lambo-black: #1a1a1a;
+  --color-lambo-gold: #D4AF37;
+  --color-bright-gold: #FFD700;
+  --color-carbon-gray: #2a2a2a;
+
+  --font-orbitron: var(--font-orbitron);
+  --font-rajdhani: var(--font-rajdhani);
+}
+
+:root {
+  background-color: var(--color-lambo-black);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Custom Utilities if needed */
+.glass {
+  background: rgba(26, 26, 26, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.hud-border {
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
